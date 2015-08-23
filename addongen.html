@@ -26,14 +26,14 @@
   <header class="clearfix container">
     <hgroup>
       <h1><a href="index.html">SmartDEV</a></h1>
-      <h2>Oficcial Website</h2>
     </hgroup>
     <nav role="navigation">
       <ul>
-        <li><a href="index.html">News</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="downloads.html">Downloads</a></li>
         <li><a href="addongen.html">AddonGen</a></li>
-        <li><a href="modelcreation.html">Model Maker</a></li>
+        <li><a href="modelcreation.html">Tessellation</a></li>
+        <li><a href="renderer.html">Start Tessellation</a></li>
         <li><a href="teaminfo.html">Team Info</a></li>
       </ul>
     </nav>
@@ -48,17 +48,15 @@
       <div class="widget">
          <h4 class="widget-title">Example Widget</h4><!-- The Title not only tops the rounded corners of this widget, but rounds off the bottom of the last one, make sure this is here -->
          <div class="widget-content">
-           <p>I tried to make this extremely flexible and simple at the same time, what you're looking at is the minimum required for a widget.</p>
+           <h5>I tried to make this extremely flexible and simple at the same time, what you're looking at is the minimum required for a widget.</h5>
          </div><!-- .widget-content -->
       </div><!-- .widget -->
       <div class="widget" id="news">
         <h4 class="widget-title">Recent News</h4>
         <div class="widget-content">
           <ul>
-            <li>
-              <a href="#" class="item-title">Made the Website!</a>
+              <h5>Made the Website</h5>
               <div class="item-pubdate">22/08/2015</div>
-            </li>
           </ul>
         </div><!-- .widget-content -->
       </div><!-- .widget -->
@@ -66,23 +64,20 @@
   <div id="content-before"><!-- Should be empty --></div>
   <div role="main" id="main">
     <article><!-- Example Blog Post Format -->
-      <h3 class="article-title"><a href="addongen.html">ADDONGEN</a></h3>
+      <h3 class="article-title">AddonGen</h3>
       <div class="article-content">
-       Name: <input id="name">
-<p> this is the name that shows up in BlockLauncher's manage addons page</p><br>
-Package: <input id="package">
-<p> this is a name that must be unique to your package. should be in all lowercase.<br> No other package can have this name. Usually contains your domain name in reverse DNS form: for example, if your website is zhuoweizhang.net, your package can be net.zhuoweizhang.potatosmasher. <br>If you don't own a domain, you can use your e-mail in reverse (com.gmail.swagyolomastertwothousand.potatosmasher) or a Weebly/Wix/Google Sites account in reverse (com.weebly.swagyolomastertwothousand.potatosmasher)</p><br>
-MCPE version: <input id="mcpeversion">
-<p>this is the Minecraft PE version that your mod will be compatible with(Example: 0.11.0)</p>
-        <input id="generatebutton" type="Submit" value="Generate!"> 
-<p><br><br>Thanks to Zhuowei for the addongen source code!</p>
+       <h2>Name: </h2><form class="clearfix"><input type="search" id="name" placeholder="_"></form><br>
+       <h2>Package: </h2><form class="clearfix"><input type="search" id="package" placeholder="_"></form><br>
+<h2>MCPE version: </h2><form class="clearfix"><input type="search" id="mcpeversion" placeholder="_"></form><br>
+        <input id="generatebutton" type="submit" value="Generate!">
+<h5><br><br>Thanks to Zhuowei for the AddonGen source code!</h5>
       </div>
     </article>
   </div><!-- main -->
   <div id="content-after"><!-- Should be empty --></div>
   </div><!-- .container -->
   <footer>
-    <p>SmartDEV 2015</p>
+    <h4>SmartDEV 2015</h4>
   </footer>
 </div><!-- #wrapper -->
 
